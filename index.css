@@ -1,0 +1,130 @@
+body{
+	margin:0px;
+	align-items: center;
+	font-size: 14px;
+	background-size: cover;
+	background: url("image/bg.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: 0.5s ease all;
+}
+
+.darken-background {
+	background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("image/bg.gif");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: 0.5s ease all;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #384459;
+    padding-right: 30px;
+    width: 100%;
+}
+
+li {
+    float: right;
+
+}
+
+
+li a {
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color:  	#14213d;
+} 
+/*animating Text*/
+@-webkit-keyframes typing { from { width: 0; } }
+@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
+#welcome-text {
+	text-shadow: 1px 1px 2px #111;
+}
+.center-text h2
+{ 
+    font: bold 100% TimesNewRoman, monospace;
+    border-right: .1em solid black;
+    width: 16.5em; 
+    width: 28ch;
+    color: #FF9800;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-animation: typing 2s steps(21, end),
+               blink-caret .5s step-end infinite alternate;
+
+}
+#register
+{
+	display: none;
+}
+.side-img
+{
+	margin-right: 1000px;
+	align-content: right;
+
+}
+.login-include {
+	display:none;
+}
+.head {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.center-text
+{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: #ffffff;	
+}
+.register	
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: linear-gradient(#00E676,#1B5E20);
+}
+.register-show {
+	display: none;
+}
+.main-content {
+	transition: 0.5s ease all;	
+}
+
+#h3
+{
+	font-size: 44px;
+	text-align: center;
+}
+#sub{
+
+	margin-top: 10px;
+
+}
+#reg
+{
+	margin-left: 15px;
+}
+#user
+{
+	margin-top: 20px; 
+	margin-left: 20px;
+	font-size: 14px;
+}
+#pass
+{
+	margin-left: 23px;
+	font-size: 14px;
+}
